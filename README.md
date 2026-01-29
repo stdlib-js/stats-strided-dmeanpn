@@ -63,7 +63,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import dmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanpn@deno/mod.js';
+import dmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanpn@v0.1.0-deno/mod.js';
 ```
 
 #### dmeanpn( N, x, strideX )
@@ -160,7 +160,7 @@ var v = dmeanpn.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanpn@deno/mod.js';
+import dmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmeanpn@v0.1.0-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
