@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-24)
+## Unreleased (2026-11-27)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0a93ace`](https://github.com/stdlib-js/stdlib/commit/0a93ace136bcb105d2b336ef51b16ffa80db90df) - **refactor:** use `constants/float64/nan` in `stats/strided/dmeanpn` [(#16871)](https://github.com/stdlib-js/stdlib/pull/16871) _(by Uday Gund)_
 -   [`c59b5f4`](https://github.com/stdlib-js/stdlib/commit/c59b5f4c20848ce7ac01ea7c2372b386ccd2c387) - **bench:** refactor to use dynamic memory allocation in `stats/strided/dmeanpn` [(#11586)](https://github.com/stdlib-js/stdlib/pull/11586) _(by Uday Kakade)_
 -   [`d6c72a0`](https://github.com/stdlib-js/stdlib/commit/d6c72a042cca76e97759951cdbf89375b784e16a) - **bench:** refactor to use string interpolation in `stats/strided` [(#11359)](https://github.com/stdlib-js/stdlib/pull/11359) _(by Karan Anand)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Uday Gund
 -   Uday Kakade
 
 </section>
